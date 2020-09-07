@@ -1,0 +1,273 @@
+#filters-panel .main-filters-section {
+}
+
+#filters-panel.filter-collapsed .filters-panel-body {
+    display: none;
+}
+
+.main-filter {
+    margin-bottom: 15px;
+    position: relative;
+    display: flex;
+    width: auto;
+}
+
+.main-filter .delete-main-filter {
+    color: #9b9b9b;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.main-filter .delete-main-filter:hover {
+    color: #686868;
+}
+
+.main-filter .te-select3-wrapper {
+    margin-right: 10px;
+    float: left;
+}
+
+.main-filter .dropdown-menu > li > a {
+    padding: 9px 12px !important;
+    white-space: normal;
+}
+
+#filters-panel .default-br-input {
+    padding: 8px 5px;
+    height: 38px;
+    color: #939393;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.main-filter .main-filter-value {
+    float: left;
+    margin-right: 10px;
+    padding-right: 15px;
+    min-width: 70px;
+    width: auto;
+}
+
+#filters-panel .main-filters-section .date-value-wrapper {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    width: 112px;
+}
+
+#filters-panel .main-filters-section .date-value-wrapper .ti-calendar {
+
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    font-size: 14px;
+}
+
+#filters-panel .main-filters-section .date-value-wrapper input {
+    width: 100%;
+    padding-left: 23px;
+}
+
+.datepicker-container {
+    z-index: 99999 !important;
+}
+
+.datepicker-top-left, .datepicker-top-right {
+    border-top-color: #d9d9d9;
+}
+
+ul.pagination {
+    display: none;
+}
+
+.main-filter #edit-custom-label-panel .custom-label-list .apply_section div.select_for_label {
+    display: block;
+    padding: 9px 12px !important;
+    font-size: 13px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main-filter .custom-label-list .apply_section ul li label {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+.main-filter #edit-custom-label-panel #custom_label_div #custom_labels {
+    width: 165px !important;
+    height: 12px !important;
+    padding-left: 7px !important;
+    margin-top: 19px !important;
+    background-image: linear-gradient(#6600cc, #6600cc), linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+}
+
+.main-filter #edit-custom-label-panel #custom_label_div div.custom-label-list {
+    z-index: 100;
+    position: absolute;
+    background: white;
+    display: none;
+    height: 317px;
+    width: 250px;
+    box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.15) !important;
+}
+
+.main-filter .select-column-entry {
+    padding: 5px;
+    text-align: left;
+}
+
+.main-filter .select-column-entry .select-column-label {
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: 1.8;
+    width: calc(100% - 20px);
+
+}
+
+.selected-label-span::before {
+    content: '';
+    background: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-var) !important;
+    display: inline-block;
+    vertical-align: sub;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    margin-right: 7px;
+    text-align: center;
+    border-radius: 20%;
+    background: var(--color-var) !important;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.main-filters-section {
+    padding: 15px;
+    width: auto;
+}
+
+#filters-panel .filters-panel-body {
+    overflow: visible;
+}
+
+.main-filter .main-filter-operator-select3-wrapper {
+    min-width: 55px;
+    width: auto;
+}
+
+.main-filter-name-select3-wrapper > ul > li[data-id=keyword],
+.main-filter-name-select3-wrapper > ul > li[data-id=productAd],
+.main-filter-name-select3-wrapper > ul > li[data-id=schedule],
+.main-filter-name-select3-wrapper > ul > li[data-id=label],
+.main-filter-name-select3-wrapper > ul > li[data-id=change-history],
+.main-filter-name-select3-wrapper > ul > li[data-id=channel],
+.main-filter-name-select3-wrapper > ul > li[data-id=adGroup],
+.main-filter-name-select3-wrapper > ul > li[data-id=next-best-dollar] {
+    position: relative;
+}
+
+.main-filter-name-select3-wrapper > ul > li[data-id=label] > ul {
+    bottom: inherit !important;
+    top: 0 !important;
+}
+
+.main-filter-operator-select3-wrapper > ul > li[data-id=additional_search] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=label] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=channel] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=adGroup] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=schedule] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=change-history] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=productAd] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=keyword] > ul,
+.main-filter-name-select3-wrapper > ul > li[data-id=next-best-dollar] > ul {
+
+    bottom: 0 !important;
+    top: inherit !important;
+}
+
+.main-filter-name-select3-wrapper > ul > li[data-id=schedule] > ul {
+    bottom: -36px !important;
+}
+
+.main-filter-operator-select3-wrapper > ul > li[data-id=additional_search] > ul {
+    width: 195px;
+}
+
+#filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul {
+    width: 170px !important;
+}
+
+#filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=next-best-dollar] > ul {
+    width: 150px !important;
+}
+
+#filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=campaign] > ul {
+    width: 185px !important;
+}
+
+#filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=rule] > ul,
+#filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=bid-action] > ul {
+    width: 152px !important;
+}
+
+
+#filters-panel .main-filter .placement-type-select3-wrapper {
+    min-width: 210px !important;
+}
+
+
+#filters-panel .main-filter .bidding-rule-desired-outcome-select3-wrapper {
+    min-width: 210px !important;
+}
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+
+.bidding-rule-bid-change-filter-value .bidding-rule-bid-change-select3-wrapper {
+    min-width: 190px !important;
+}
+
+
+body.campaigns-page #filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul,
+body.channels-page #filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul,
+body.accounts-page #filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul,
+body.keywords-page #filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul,
+body.auto-targeting-page #filters-panel .main-filter .main-filter-name-select3-wrapper li[data-id=orders] > ul {
+    height: 240px;
+    width: 290px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.comp-disabled .main-filter-period-select3-wrapper {
+    display: none !important;
+}
+
+.comparison-warning-main-filter {
+    display: none;
+    margin-left: 15px;
+    line-height: 35px;
+}
+
+.comp-disabled .comparison-main-filter .comparison-warning-main-filter {
+    display: block;
+}
+
+.comparison-main-filter .tooltip-inner {
+    max-width: 200px;
+}
+
+

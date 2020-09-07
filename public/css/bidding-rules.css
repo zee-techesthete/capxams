@@ -1,0 +1,925 @@
+#filters-panel .bidding-rule-bid-change-type-box-select .btn.te-box-select-btn {
+    border: none;
+}
+
+/* Filters CSS */
+
+.bidding-rules-panel .modal-dialog {
+    max-width: 1000px;
+    width: 100%;
+    -webkit-transition: width .8s ease-in;
+    -moz-transition: width .8s ease-in;
+    -ms-transition: width .8s ease-in;
+    -o-transition: width .8s ease-in;
+    transition: width .8s ease-in;
+}
+
+.bidding-rules-panel .modal-header,
+#showBiddingRulePreview .modal-header {
+    padding: 20px 10px 20px 20px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.bidding-rules-panel #bidding-rules-modal-content {
+    border-radius: 3px;
+}
+
+.bidding-rules-panel .modal-body {
+    padding: 25px 20px 30px 30px;
+    overflow-y: inherit !important;
+}
+
+.bidding-rules-panel .te-select3-wrapper.open .select3-selected {
+    visibility: hidden !important;
+}
+
+.bidding-rules-panel .modal-header #save-bidding-rule-name {
+    font-size: 18px;
+    font-weight: 300;
+    width: 50%;
+    background-image: linear-gradient(#6600cc, #6600cc), linear-gradient(rgba(120, 130, 140, 0), rgba(120, 130, 140, 0)) !important;
+}
+
+.bidding-rules-panel .modal-header #save-bidding-rule-name:focus {
+    color: #4A4A4A;
+    font-weight: 300;
+}
+
+.bidding-rules-panel .modal-header #save-bidding-rule-name::-webkit-input-placeholder {
+    color: #686868;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn,
+.bidding-rules-panel .modal-header .budget-pacing-action-btn,
+#showBiddingRulePreview .modal-header .bidding-rule-preview-action-btn {
+    padding: 0 15px;
+    float: right;
+    color: #666666;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 26px;
+    opacity: 1;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=close],
+.bidding-rules-panel .modal-header .budget-pacing-action-btn[data-action=close] {
+    opacity: .7;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=close]:hover,
+.bidding-rules-panel .modal-header .budget-pacing-action-btn[data-action=close]:hover {
+    opacity: 1;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=save],
+.bidding-rules-panel .modal-header .budget-pacing-action-btn[data-action=save] {
+    color: #d9d9d9;
+    margin-right: 10px;
+    border-right: 1px solid #d4d4d4;
+    padding-right: 25px;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=preview] {
+    color: #d9d9d9;
+}
+
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=save]:hover,
+.bidding-rules-panel .modal-header .bidding-rule-action-btn[data-action=preview]:hover,
+.bidding-rules-panel .modal-header .budget-pacing-action-btn[data-action=save]:hover {
+    background: transparent;
+}
+
+.bidding-rules-panel .modal-header .bidding-rule-action-btn.active[data-action=save],
+.bidding-rules-panel .modal-header .budget-pacing-action-btn.active[data-action=save],
+.bidding-rules-panel .modal-header .bidding-rule-action-btn.active[data-action=preview] {
+    color: #6600cc;
+}
+
+
+.bidding-rules-column {
+    border-left: 1px solid #d9d9d9;
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
+.bidding-rules-column .bidding-rule-section {
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-head {
+    border-bottom: 1px solid #d9d9d9;
+    height: 9px;
+    margin-bottom: 0px;
+
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-head > h3 {
+    background: #fff;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 10px;
+    line-height: 17px;
+    float: left;
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-head > h3 .bidding-rule-section-head-circle {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -8.5px;
+    background-image: url('../images/svg-icons/circle-icon-purple.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.bidding-rules-column .bidding-rule-section.br-ok .bidding-rule-section-head > h3 .bidding-rule-section-head-circle {
+    background-image: url('../images/svg-icons/circle-icon-checked-purple.svg');
+}
+
+.bidding-rules-panel .bidding-rule-info-icon {
+    width: 12px;
+    height: 12px;
+    background-image: url('../images/svg-icons/info-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-body {
+    padding: 20px 0 20px 20px;
+}
+
+/* font size and line-height css for all body content in bidding rules panel */
+
+.bidding-rules-panel .bidding-rule-section .bidding-rule-section-desc,
+.bidding-rules-panel .bidding-rule-section .bidding-rule-section-action-btn,
+.bidding-rules-panel .bidding-rule-schedule-section .te-box-select-wrapper .te-box-select-buttons .btn.te-box-select-btn,
+.bidding-rules-panel .bidding-rule-daterange span.custom-daterange-control,
+.bidding-rules-panel .te-select3-wrapper .select3-selected,
+.bidding-rules-panel .te-select3-wrapper .dropdown-menu > li > a,
+.bidding-rules-panel .tooltip-inner,
+.bidding-rules-panel .bidding-rule-outcomes .te-box-checkbox-wrapper,
+.bidding-rules-panel .f-s-13 {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-desc {
+    margin-bottom: 20px;
+}
+
+.bidding-rules-column .bidding-rule-section .bidding-rule-section-action-btn {
+    color: #4178cf;
+    display: inline-block;
+}
+
+.bidding-rule-filter {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.bidding-rule-filter .delete-bidding-rule-filter {
+    color: #9b9b9b;
+    font-size: 22px;
+    position: absolute;
+    right: 0;
+    line-height: 35px;
+    top: 0;
+}
+
+.bidding-rule-filter .delete-bidding-rule-filter:hover {
+    color: #686868;
+}
+
+.bidding-rule-filter .te-select3-wrapper {
+    margin-right: 10px;
+    float: left;
+}
+
+.bidding-rules-panel .default-br-input {
+    padding: 8px 5px;
+    height: 35px;
+    color: #939393;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+div.te-select3-wrapper li[data-id=campaign_budget] ul {
+    width: 170px;
+}
+
+.bidding-rule-filter .bidding-rule-filter-value {
+    float: left;
+    width: 70px;
+    margin-right: 10px;
+    padding-right: 15px;
+}
+
+.bidding-rule-filter.search-filter .bidding-rule-filter-value {
+    width: calc(100% - 312px);
+}
+
+.custom-form-modal .bidding-rule-filters-section .date-value-wrapper {
+    float: left;
+    position: relative;
+    margin-right: 10px;
+    width: 112px;
+}
+
+.custom-form-modal .bidding-rule-filters-section .date-value-wrapper .ti-calendar {
+
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    font-size: 14px;
+}
+
+.custom-form-modal .bidding-rule-filters-section .date-value-wrapper input {
+    width: 100%;
+    padding-left: 23px;
+}
+
+.custom-form-modal .bidding-rule-daterange {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.custom-form-modal .bidding-rule-daterange .custom-daterange-control {
+    display: none;
+    margin-left: 10px;
+}
+
+.custom-form-modal .bidding-rule-daterange input.custom-daterange-control {
+    width: 50px;
+    text-align: center;
+}
+
+.custom-form-modal .bidding-rule-daterange span.custom-daterange-control {
+    line-height: 35px;
+}
+
+.custom-form-modal .bidding-rule-daterange .te-select3-wrapper {
+    float: left !important;
+    margin-right: 10px;
+}
+
+.ignore-bidding-rule-daterange input[type=checkbox] {
+    margin-right: 7px;
+}
+
+/*.custom-form-modal #bidding-rule-daterange-label {*/
+/*background: #fff;*/
+/*cursor: pointer;*/
+/*padding: 9px 12px;*/
+/*width: auto;*/
+/*color: #333;*/
+/*float: left;*/
+/*font-weight: 400;*/
+/*line-height: 1.42857143;*/
+/*box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5) !important;*/
+/*margin-bottom: 25px;*/
+/*}*/
+
+/*.custom-form-modal #bidding-rule-daterange-label .caret {*/
+/*margin-left: 15px;*/
+/*}*/
+
+.ignore-bidding-rule-daterange .te-select3-wrapper {
+    position: relative;
+    margin: 0 10px;
+    float: left;
+    top: -10px;
+}
+
+.bidding-rule-bid-action,
+.budget-pacing-crud-settings {
+    margin-bottom: 10px;
+}
+
+.bidding-rule-bid-action .te-select3-wrapper,
+.budget-pacing-crud-settings .te-select3-wrapper,
+.bidding-rule-labels .te-select3-wrapper {
+    float: left;
+    margin-right: 10px;
+}
+
+.bidding-rule-bid-action .bidding-rule-bid-action-value,
+.bidding-rule-labels .bidding-rule-labels-value {
+    float: left;
+    width: 100px;
+    position: relative;
+    z-index: 2;
+    height: 38px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.bidding-rule-bid-action .bid-unit-container,
+.bidding-rule-labels .labels-container {
+    width: 50px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.bidding-rule-bid-action .bid-unit-container .te-switch-wrapper,
+.bidding-rule-labels .bid-unit-container .te-switch-wrapper {
+    position: relative;
+    left: -20px;
+}
+
+.bid-action-section .bidding-rule-bid-limit.br-input {
+    height: 35px;
+    padding: 8px 5px 6px 5px;
+}
+
+.bidding-rule-bid-limit .bid-limit-label {
+    margin: 0 7px;
+    height: 35px;
+    line-height: 35px !important;
+}
+
+.budget-pacing-crud-settings .lookback-label,
+.budget-pacing-crud-settings .forecast-label {
+    margin: 0 24px 0 0;
+    height: 35px;
+    line-height: 35px !important;
+}
+
+.budget-pacing-crud-settings .forecast-label {
+    margin-right: 30px !important;
+}
+
+.budget-pacing-crud-settings .budget-goal-label {
+    margin-right: 6px !important;
+}
+
+.budget-pacing-crud-settings .budget-goal-anchor {
+    margin-right: 3px !important;
+}
+
+.budget-pacing-crud-settings #budget_goal {
+    padding: 0px !important;
+    position: relative !important;
+    top: -3px !important;
+    width: 127px !important;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .te-box-select-wrapper {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .te-box-select-wrapper .te-box-select-buttons .btn.te-box-select-btn {
+    padding: 4px 11px;
+    color: #4A4A4A;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .te-box-select-wrapper.active a.te-clear-box-select {
+    display: none;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-time .te-select3-wrapper {
+    position: relative;
+    top: -10px;
+    margin: 0 10px;
+    float: left;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .toggle-schedule-additional-options-btn .fa-angle-double-up,
+.bidding-rules-panel .bidding-rule-schedule-section.additional-options-shown .toggle-schedule-additional-options-btn .fa-angle-double-down,
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-dates {
+    display: none;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .toggle-schedule-additional-options-btn .fa-angle-double-down,
+.bidding-rules-panel .bidding-rule-schedule-section.additional-options-shown .toggle-schedule-additional-options-btn .fa-angle-double-up {
+    display: inline-block;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section.additional-options-shown .bidding-rule-schedule-dates {
+    display: block;
+    margin-top: 10px;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-dates .schedule-date-wrapper {
+    float: left;
+    position: relative;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-dates .schedule-date-wrapper.end-date-wrapper {
+    margin-right: 7px;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-dates .schedule-date-wrapper .ti-calendar {
+
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    font-size: 14px;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-schedule-dates .schedule-date-wrapper input {
+    width: 100%;
+    height: 35px;
+    padding: 8px 5px 8px 23px;
+}
+
+.harvest-rule-filters .search-filter .bidding-rule-filter-operator-select3-wrapper {
+    width: 135px !important;
+}
+
+.bidding-rules-panel .desired-outcomes-section {
+}
+
+.bidding-rules-panel .bidding-rule-filters-section .bidding-rule-section-desc .bidding-rule-info-icon {
+    position: relative;
+    top: 1px;
+}
+
+.bidding-rules-panel .desired-outcomes-section .bidding-rule-section-desc .bidding-rule-info-icon {
+    position: relative;
+    top: 1px;
+}
+
+.bidding-rules-panel .bidding-rule-daterange-section .bidding-rule-info-icon {
+    position: relative;
+    top: 3px;
+}
+
+.bidding-rules-panel .bidding-rule-outcomes {
+    width: 215px;
+}
+
+.bidding-rules-panel .bidding-rule-outcomes .te-box-checkbox-wrapper {
+    display: block !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu > .dropdown-menu {
+    bottom: 0 !important;
+    top: inherit !important;
+    width: auto;
+}
+
+#harvest-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id="keyword"] > .dropdown-menu {
+    bottom: 36px !important;
+    top: inherit !important;
+    width: auto;
+}
+
+#bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id="advertising"] > .dropdown-menu {
+    bottom: 70px !important;
+}
+
+#bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id="keyword"] > .dropdown-menu {
+    bottom: 70px !important;
+}
+
+#bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id="target"] > .dropdown-menu {
+    bottom: 36px !important;
+}
+
+#bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id="adGroup"] > .dropdown-menu {
+    bottom: 35px !important;
+}
+
+#bidding-rules-panel .bid_action-select3-wrapper ul > li[data-id="status"] {
+    position: relative !important;
+}
+
+#bidding-rules-panel .bid_action-select3-wrapper .dropdown-submenu > .dropdown-menu {
+    bottom: 0 !important;
+    top: inherit !important;
+}
+
+.bidding-rules-panel .bid_action-select3-wrapper .dropdown-submenu[data-id=status] > .dropdown-menu {
+    bottom: inherit !important;
+    top: 38px !important;
+}
+
+.bidding-rules-panel .bidding-rule-filter-name-select3-wrapper .dropdown-submenu[data-id=label] > .dropdown-menu {
+    top: inherit !important;
+    bottom: 0 !important;
+}
+
+.bidding-rules-panel .bid_action-select3-wrapper .dropdown-menu > .dropdown-submenu > .dropdown-menu {
+    width: auto;
+}
+
+.datepicker-container {
+    z-index: 99999 !important;
+}
+
+.datepicker-top-left, .datepicker-top-right {
+    border-top-color: #d9d9d9;
+}
+
+ul.pagination {
+    display: none;
+}
+
+/*.bidding-rules-panel .te-select3-wrapper ul.dropdown-menu {*/
+/*width: auto !important;*/
+/*}*/
+
+/*.bidding-rules-panel .te-select3-wrapper ul.dropdown-menu > li.submenu {*/
+
+/*}*/
+
+/*.bidding-rules-panel .te-select3-wrapper ul.dropdown-menu > li.submenu > a {*/
+/*padding-right: 25px;*/
+/*position: relative;*/
+/*}*/
+
+/*.bidding-rules-panel .te-select3-wrapper ul.dropdown-menu > li.submenu > a > i.fa.fa-caret-right.pull-right {*/
+/*position: absolute;*/
+/*right: 7px;*/
+/*top: calc(50% - 7px);*/
+/*}*/
+
+#bidding-rules-table .bid-change-col i.zmdi.zmdi-long-arrow-down {
+    font-weight: bold;
+    color: #9d0717;
+    font-size: 12px;
+}
+
+#bidding-rules-table .bid-change-col i.zmdi.zmdi-long-arrow-up {
+    font-weight: bold;
+    color: #2ad03d;
+    font-size: 12px;
+}
+
+#bidding-rules-table .br-status-dropdown {
+
+}
+
+#bidding-rules-table .br-status-dropdown li {
+
+}
+
+#bidding-rules-table .br-status-dropdown li a {
+
+}
+
+table#bidding-rules-table td.te-table-status-col > div {
+    /*padding-left: 26px !important;*/
+    /*width: 100%;*/
+    /*position: relative;*/
+}
+
+table#bidding-rules-table td div a.te-outcomes {
+    float: left;
+    border-radius: 20px;
+    background: #e4e4e4;
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    padding: 3px 10px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+#bidding-rules-table .te-table-status-col button.te-table-status-btn.enabled {
+    font-size: 14px;
+}
+
+#bidding-rules-table .te-table-status-col ul.dropdown-menu {
+    width: 20px;
+    left: 0;
+}
+
+#bidding-rules-table .te-table-status-col ul.dropdown-menu .te-enable-icon {
+    font-size: 14px;
+}
+
+#bidding-rules-table .table-status-btn-dropdown .dropdown-menu li a {
+    text-align: center;
+    padding: 3px;
+    height: 22px;
+}
+
+#bidding-rules-table .table-status-btn-dropdown .dropdown-menu li:last-child {
+    padding-bottom: 1px;
+}
+
+#bidding-rules-table .table-status-btn-dropdown .dropdown-menu li a i.te-pause-icon {
+    top: auto;
+    left: auto;
+    width: 100%;
+    background-size: 12px 10px;
+    background-position: center center;
+}
+
+/* Tooltip CSS Starts */
+.bidding-rules-panel .info-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.bidding-rules-panel .tooltip-inner {
+    max-width: 370px;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+.bidding-rules-panel .tooltip-arrow {
+    border-width: 0 8px 8px;
+    border-bottom-color: #000;
+    top: 2px;
+}
+
+.bidding-rules-panel div.tooltip-inner {
+    /*margin-top: 5px;*/
+    width: 360px;
+    /*right: 100px;*/
+    left: auto !important;
+    position: relative;
+}
+
+.bidding-rules-panel .modal-title div.tooltip {
+    left: 100px !important;
+}
+
+.bidding-rules-panel .modal-title div.tooltip-inner {
+    /*margin-top: 5px;*/
+    width: auto;
+    right: auto;
+    left: auto !important;
+    position: relative;
+}
+
+.bidding-rules-panel .modal-title div.tooltip-arrow {
+    left: 10% !important;
+}
+
+.bidding-rules-panel .ignore-bidding-rule-daterange div.tooltip-inner {
+    width: 350px;
+    right: 100px;
+    left: auto !important;
+    position: relative;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-dates div.tooltip-inner {
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 350px;
+    right: 100px;
+    left: auto !important;
+    position: relative;
+}
+
+.bidding-rules-panel .bidding-rule-schedule-dates div.tooltip-arrow {
+
+    border-width: 8px 8px 0;
+    border-top-color: #000;
+    top: auto !important;
+    bottom: 2px;
+}
+
+.bidding-rules-panel .modal-footer {
+    display: none;
+    padding: 0;
+    border-top: 1px solid #d9d9d9;
+}
+
+.bidding-rules-panel .modal-footer button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #d9d9d9;
+    color: #fff;
+}
+
+.bidding-rules-panel .modal-footer button.active {
+    background: #6600cc;
+}
+
+.bidding-rules-panel .modal-footer button.active:hover {
+    background: #006876;
+}
+
+#showBiddingRulePreview .modal-body {
+    max-height: 600px;
+    overflow: auto;
+    min-height: 350px;
+    font-size: 12px;
+}
+
+#showBiddingRulePreview tbody {
+    color: #4A4A4A !important;
+}
+
+#showBiddingRulePreview tbody tr.ignoredKeywordRow {
+    background: rgb(255, 237, 138) !important;
+}
+
+/*.bidding-rules-panel .bid-action-section .bidding-rule-section-body {*/
+/*height: 165px;*/
+/*}*/
+
+.automation-filters-panel .bidding-rule-days-per-week-box-select .te-box-select-btn {
+    padding: 4px 5px 4px 17px !important;
+}
+
+.bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=orders] > ul {
+    width: 200px !important;
+}
+
+#bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=campaign] > ul {
+    width: 180px !important;
+}
+#bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=adGroup] > ul {
+    width: 120px !important;
+}
+#bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=keyword] > ul {
+    width: 120px !important;
+}
+#bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=target] > ul {
+    width: 120px !important;
+}
+#bidding-rules-panel .bidding-rule-filter .bidding-rule-filter-name-select3-wrapper li[data-id=label] > ul {
+    width: 130px !important;
+}
+
+.bidding-rule-filter #edit-custom-label-panel .custom-label-list .apply_section div.select_for_label {
+    display: block;
+    padding: 9px 12px !important;
+    font-size: 13px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.bidding-rule-filter .custom-label-list .apply_section ul li label {
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+.bidding-rule-filter #edit-custom-label-panel #custom_label_div #custom_labels {
+    width: 165px !important;
+    height: 12px !important;
+    padding-left: 7px !important;
+    margin-top: 19px !important;
+    background-image: linear-gradient(#6600cc, #6600cc), linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)) !important;
+}
+
+.bidding-rule-filter #edit-custom-label-panel #custom_label_div div.custom-label-list {
+    z-index: 100;
+    position: absolute;
+    background: white;
+    display: none;
+    height: 317px;
+    width: 250px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5) !important;
+}
+
+.bidding-rule-filter .select-column-entry {
+    padding: 5px;
+    text-align: left;
+}
+
+.bidding-rule-filter .select-column-entry .select-column-label {
+    margin-bottom: 0;
+    margin-left: 0;
+    line-height: 1.8;
+    width: calc(100% - 20px);
+
+}
+
+.selected-label-span::before {
+    content: '';
+    background: #fff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-var) !important;
+    display: inline-block;
+    vertical-align: sub;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    margin-right: 7px;
+    text-align: center;
+    border-radius: 20%;
+    background: var(--color-var) !important;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+@media screen and (max-width: 900px) {
+
+    .bidding-rules-panel .modal-dialog {
+        max-width: 600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bidding-rules-column {
+        border-left: 1px solid #d9d9d9;
+        width: 100%;
+        float: left;
+        padding-right: 20px;
+    }
+
+    .bidding-rules-panel .modal-header #save-bidding-rule-name {
+        max-width: calc(100% - 240px);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .bidding-rules-panel.modal {
+        /*border: none;*/
+        /*border-radius: 0;*/
+    }
+
+    .bidding-rules-panel .modal-dialog {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    .bidding-rules-panel .modal-content {
+        height: 100%;
+    }
+
+    .bidding-rules-panel #bidding-rules-modal-content {
+        border: none;
+        border-radius: 0;
+    }
+
+    .bidding-rules-panel .modal-body {
+        overflow: auto;
+        max-height: calc(100% - 125px);
+    }
+
+    .bidding-rules-panel #bidding_form {
+        max-height: 100%;
+        height: 100%;
+    }
+
+    .bidding-rules-panel .modal-header #save-bidding-rule-name {
+        width: calc(100% - 175px);
+        max-width: inherit;
+    }
+
+    .bidding-rules-panel #save-bidding-rule-btn {
+        display: none;
+    }
+
+    .bidding-rules-panel .modal-footer {
+        display: block;
+    }
+
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section .bidding-rule-revert-schedule {
+    display: none;
+}
+
+.bidding-rule-revert-schedule .te-box-select-buttons {
+    width: calc(100% - 32px);
+}
+
+.bidding-rules-panel .bidding-rule-schedule-section.additional-options-shown .bidding-rule-revert-schedule {
+    display: block;
+    margin-top: 10px;
+}
+
+.secondary-cell-text {
+    font-size: 10px;
+    font-style: italic;
+}
+
+#bidding-rules-table .entity-col {
+    text-transform: capitalize;
+}
+
+.bidding-rules-panel .bidding-rule-filter-name-select3-wrapper li[data-id="keyword"].dropdown-submenu > .dropdown-menu {
+    bottom: 27px !important;
+}

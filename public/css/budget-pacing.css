@@ -1,0 +1,15 @@
+#budget-pacing-table .col-difference i.zmdi.zmdi-long-arrow-down {
+    font-weight: bold;
+    color: #9d0717;
+    font-size: 12px;
+}
+
+#budget-pacing-table .col-difference i.zmdi.zmdi-long-arrow-up {
+    font-weight: bold;
+    color: #2ad03d;
+    font-size: 12px;
+}
+
+#budget-pacing-table th.col-difference{
+    min-width: 115px;
+}

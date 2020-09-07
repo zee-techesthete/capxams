@@ -1,0 +1,133 @@
+/* Bootstrap css */
+/*@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css";*/
+/* Propeller typography */
+/*@import "http://propeller.in/components/typography/css/typography.css";*/
+/* Propeller buttons */
+/*@import "http://propeller.in/components/button/css/button.css";*/
+@import "propeller-button.css";
+
+/* Propeller icons */
+/*@import "http://fonts.googleapis.com/icon?family=Material+Icons";*/
+/*@import "http://propeller.in/components/icons/css/google-icons.css";*/
+
+/* Propeller css for Floating Action Button*/
+.pmd-floating-action {
+    bottom: 0;
+    position: fixed;
+    margin: 1em;
+    right: 0;
+}
+
+.pmd-floating-action-btn {
+    display: block;
+    position: relative;
+    transition: all .1s ease-out;
+}
+
+.pmd-floating-action-btn:before {
+    bottom: 10%;
+    content: attr(data-title);
+    opacity: 0;
+    position: absolute;
+    right: 100%;
+    transition: all .1s ease-out .1s;
+    white-space: nowrap;
+    background-color: rgba(74, 74, 74, 0.85);
+    padding: 6px 12px;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px !important;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.pmd-floating-action-btn:last-child:before {
+    font-size: 12px;
+    bottom: 25%;
+}
+
+.pmd-floating-action-btn:not(:last-child) {
+    opacity: 0;
+    -ms-transform: translateY(20px) scale(0.3);
+    transform: translateY(20px) scale(0.3);
+    margin-bottom: 15px;
+    margin-left: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+.pmd-floating-action:hover .pmd-floating-action-btn, .menu--floating--open .pmd-floating-action-btn {
+    opacity: 1;
+    -ms-transform: none;
+    transform: none;
+    position: relative;
+    bottom: auto;
+}
+
+.pmd-floating-action:hover .pmd-floating-action-btn:before, .menu--floating--open .pmd-floating-action-btn:before {
+    opacity: 1;
+}
+
+.pmd-floating-hidden {
+    display: none;
+}
+
+.pmd-floating-action-btn.btn:hover {
+    overflow: visible;
+}
+
+.pmd-floating-action-btn .ink {
+    width: 50px;
+    height: 50px;
+}
+
+.pmd-floating-action {
+    z-index: 99999;
+    background-color: transparent;
+    font-size: 24px;
+    border: none !important;
+}
+
+/*.pmd-btn-raised .material-icons {*/
+/*    color: #6600cc;*/
+/*}*/
+
+
+.pmd-floating-action .material-icons {
+    color: white !important;
+}
+
+.pmd-floating-action .pmd-floating-action-btn {
+    background-color: #6600cc;
+    border: none;
+    background-image: url(../images/svg-icons/add.svg);
+    -webkit-transition: background .2s;
+    -moz-transition: background .2s;
+    -ms-transition: background .2s;
+    -o-transition: background .2s;
+    transition: background .2s;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: default !important;
+    background-size: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25) !important;
+}
+
+.pmd-floating-action-btn:before {
+    display: none;
+}
+
+.pmd-floating-action-btn:active, .pmd-floating-action-btn:focus, .pmd-floating-action-btn:hover {
+    background-image: url(../images/svg-icons/up-angle.svg);
+    background-size: 25px;
+    background-position-y: 46%;
+    background-color: #8533d6 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.pmd-floating-action .btn-sm {
+    background-image: none;
+    font-size: 20px;
+    color: #fff;
+}

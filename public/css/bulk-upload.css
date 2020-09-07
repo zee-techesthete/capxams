@@ -1,0 +1,212 @@
+#ams-bulk-upload-modal {
+    top: 100px;
+}
+.ams-bulk-upload-modal-template {
+    top: 100px;
+}
+
+#ams-bulk-upload-modal .item-change-table p {
+    margin: 0;
+}
+.ams-bulk-upload-modal-template .item-change-table p {
+    margin: 0;
+}
+
+#ams-bulk-upload-modal .modal-dialog {
+    width: 673px;
+}
+.ams-bulk-upload-modal-template .modal-dialog {
+    width: 673px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content {
+    padding: 15px 20px 20px;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content {
+    padding: 20px 35px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-header {
+    border: none !important;
+    padding: 0 !important;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-header {
+    border: none !important;
+    padding: 0px !important;
+    margin-top: 10px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-body {
+    /*height: auto;*/
+    /*overflow: auto;*/
+    font-size: 12px;
+    padding: 0;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-body {
+    /*height: auto;*/
+    /*overflow: auto;*/
+    font-size: 12px;
+    padding: 0px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer {
+    border: none !important;
+    padding: 0;
+    margin-top: 12px;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer {
+    border: none !important;
+    padding: 0px;
+    margin-top: 12px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .uploadFile,
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .selectFile,
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .send-to-api,
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .bulk_upload_done {
+    float: right;
+    background: #6600cc;
+    border: 1px solid #6600cc;
+    border-radius: 2px;
+    font-weight: 300;
+    padding: 10px 24px 8px;
+    outline: none;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.33);
+    text-transform: uppercase;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .uploadFile,
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .selectFile,
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .send-to-api,
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .bulk_upload_done {
+    float: right;
+    background: #179ca6;
+    border: 1px solid #179ca6;
+    border-radius: 1px;
+    font-weight: 300;
+    padding: 10px 24px 8px;
+    outline: none;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.33);
+    text-transform: uppercase;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .send-to-api {
+    display: none;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .send-to-api {
+    display: none;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .model_close_button {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    padding: 10px 24px 8px;
+    background: transparent;
+    border: none;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .model_close_button {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a1a1a1;
+    text-transform: uppercase;
+    padding: 10px 24px 8px;
+    background: transparent;
+    border: none;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer button {
+    font-size: 12px;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer button {
+    font-size: 12px;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-content .modal-footer .model_close_button:hover {
+    padding: 10px 24px 8px;
+    color: #4A4A4A;
+
+    background-color: #e4e4e4;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-content .modal-footer .model_close_button:hover {
+    padding: 10px 24px 8px;
+    color: #4A4A4A;
+
+    background-color: #e4e4e4;
+}
+
+#ams-bulk-upload-modal h4.modal-title {
+    font-family: Open Sans !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.ams-bulk-upload-modal-template h4.modal-title {
+    font-family: Open Sans !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wide_model {
+    width: 1200px !important;
+    max-width: 100% !important;
+}
+
+.narrow_modal {
+    width: 550px !important;
+    max-width: inherit !important;
+}
+
+#summeryDiv {
+    padding-top: 10px;
+}
+
+#summeryDiv div.tab-content {
+    overflow-y: auto;
+    max-height: 500px;
+    margin-top: 0;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-header .close {
+    font-size: 30px;
+    opacity: .5;
+}
+
+#ams-bulk-upload-modal .modal-dialog .modal-header .close:hover {
+    opacity: 1;
+}
+.ams-bulk-upload-modal-template .modal-dialog .modal-header .close {
+    margin-top: -25px;
+    margin-right: -25px;
+}
+
+#ams-bulk-upload-modal .dropzone .dz-default.dz-message {
+    width: 555px;
+    height: 76px;
+    margin-left: -278px;
+    margin-top: -37px;
+}
+.ams-bulk-upload-modal-template .dropzone .dz-default.dz-message {
+    width: 555px;
+    height: 76px;
+    margin-left: -278px;
+    margin-top: -37px;
+}
+
+#ams-bulk-upload-modal .dropzone {
+    min-height: 100px;
+    width: 100%;
+}
+.ams-bulk-upload-modal-template .dropzone {
+    min-height: 100px;
+}
+
+#ams-bulk-upload-modal .bulk-upload-data-summary-table td.upload-status ul.upload-status-ul {
+    padding-left: 0 !important;
+    list-style-position: inside !important;
+}
+.ams-bulk-upload-modal-template .bulk-upload-data-summary-table td.upload-status ul.upload-status-ul {
+    padding-left: 0 !important;
+    list-style-position: inside !important;
+}

@@ -1,0 +1,384 @@
+#filters-panel .custom-data-bid-change-type-box-select .btn.te-box-select-btn {
+    border: none;
+}
+
+/* Filters CSS */
+
+
+.custom-data-column {
+    border-left: 1px solid #d9d9d9;
+    width: 50%;
+    float: left;
+    padding-right: 20px;
+}
+
+.custom-data-column .custom-data-section {
+
+}
+
+.custom-data-column .custom-data-section .custom-data-section-head {
+    border-bottom: 1px solid #d9d9d9;
+    height: 9px;
+    margin-bottom: 0px;
+
+}
+
+.custom-data-column .custom-data-section .custom-data-section-head > h3 {
+    background: #fff;
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #003a49;
+    position: relative;
+    padding-left: 16px;
+    padding-right: 10px;
+    line-height: 17px;
+    float: left;
+}
+
+.custom-data-column .custom-data-section .custom-data-section-head > h3 .custom-data-section-head-circle {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: -8.5px;
+    background-image: url('../images/svg-icons/circle-icon.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.custom-data-column .custom-data-section.br-ok .custom-data-section-head > h3 .custom-data-section-head-circle {
+    background-image: url('../images/svg-icons/circle-icon-checked.svg');
+}
+
+
+.custom-data-column .custom-data-section .custom-data-section-body {
+    padding: 20px 0 20px 20px;
+}
+
+.custom-data-column .custom-data-section .custom-data-section-desc {
+    margin-bottom: 20px;
+}
+
+.custom-data-column .custom-data-section .custom-data-section-action-btn {
+    color: #6600cc;
+    display: inline-block;
+}
+
+#custom-data-panel .custom-data-schedule-section .te-box-select-wrapper {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#custom-data-panel .custom-data-schedule-section .te-box-select-wrapper .te-box-select-buttons .btn.te-box-select-btn {
+    padding: 4px 11px;
+    color: #686868;
+}
+
+#custom-data-panel .custom-data-schedule-section .te-box-select-wrapper.active a.te-clear-box-select {
+    display: none;
+}
+
+#custom-data-panel .custom-data-schedule-section .custom-data-schedule-time .te-select3-wrapper {
+    position: relative;
+    top: -10px;
+    margin: 0 10px;
+    float: left;
+}
+
+/*#custom-data-panel .te-select3-wrapper ul.dropdown-menu {*/
+/*width: auto !important;*/
+/*}*/
+
+/*#custom-data-panel .te-select3-wrapper ul.dropdown-menu > li.submenu {*/
+
+/*}*/
+
+/*#custom-data-panel .te-select3-wrapper ul.dropdown-menu > li.submenu > a {*/
+/*padding-right: 25px;*/
+/*position: relative;*/
+/*}*/
+
+/*#custom-data-panel .te-select3-wrapper ul.dropdown-menu > li.submenu > a > i.fa.fa-caret-right.pull-right {*/
+/*position: absolute;*/
+/*right: 7px;*/
+/*top: calc(50% - 7px);*/
+/*}*/
+
+
+#custom-data-table .bid-change-col i.zmdi.zmdi-long-arrow-down {
+    font-weight: bold;
+    color: #9d0717;
+    font-size: 12px;
+}
+
+#custom-data-table .bid-change-col i.zmdi.zmdi-long-arrow-up {
+    font-weight: bold;
+    color: #2ad03d;
+    font-size: 12px;
+}
+
+#custom-data-table .br-status-dropdown {
+
+}
+
+#custom-data-table .br-status-dropdown li {
+
+}
+
+#custom-data-table .br-status-dropdown li a {
+
+}
+
+table#custom-data-table td.te-table-status-col > div {
+    /*padding-left: 26px !important;*/
+    /*width: 100%;*/
+    /*position: relative;*/
+}
+
+table#custom-data-table td div a.te-outcomes {
+    float: left;
+    border-radius: 20px;
+    background: #e4e4e4;
+    color: #4A4A4A;
+    font-size: 13px;
+    font-weight: 400;
+    position: relative;
+    padding: 9px 35px 9px 15px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+#custom-data-table .te-table-status-col button.te-table-status-btn.enabled {
+    font-size: 14px;
+}
+
+#custom-data-table .te-table-status-col ul.dropdown-menu {
+    width: 20px;
+    left: 0;
+}
+
+#custom-data-table .te-table-status-col ul.dropdown-menu .te-enable-icon {
+    font-size: 14px;
+}
+
+#custom-data-table .table-status-btn-dropdown .dropdown-menu li a {
+    text-align: center;
+    padding: 3px;
+    height: 22px;
+}
+
+#custom-data-table .table-status-btn-dropdown .dropdown-menu li:last-child {
+    padding-bottom: 1px;
+}
+
+#custom-data-table .table-status-btn-dropdown .dropdown-menu li a i.te-pause-icon {
+    top: auto;
+    left: auto;
+    width: 100%;
+    background-size: 12px 10px;
+    background-position: center center;
+}
+
+/* Tooltip CSS Starts */
+#custom-data-panel .info-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+#custom-data-panel .tooltip-inner {
+    max-width: 350px;
+    text-align: left;
+    padding: 8px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+}
+
+#custom-data-panel .tooltip-arrow {
+    border-width: 0 8px 8px;
+    border-bottom-color: #000;
+    top: 2px;
+}
+
+#custom-data-panel div.tooltip-inner {
+    margin-top: 5px;
+    width: 350px;
+    right: 100px;
+    left: auto !important;
+    position: relative;
+}
+
+#custom-data-panel .modal-title div.tooltip {
+    left: 100px !important;
+}
+
+#custom-data-panel .modal-title div.tooltip-inner {
+    margin-top: 5px;
+    width: auto;
+    right: auto;
+    left: auto !important;
+    position: relative;
+}
+
+#custom-data-panel .modal-title div.tooltip-arrow {
+    left: 10% !important;
+}
+
+#custom-data-panel .ignore-custom-data-daterange div.tooltip-inner {
+    width: 350px;
+    right: 100px;
+    left: auto !important;
+    position: relative;
+}
+
+#custom-data-panel .custom-data-schedule-dates div.tooltip-inner {
+    margin-bottom: 5px;
+    margin-top: 0;
+    width: 350px;
+    right: 100px;
+    left: auto !important;
+    position: relative;
+}
+
+#custom-data-panel .custom-data-schedule-dates div.tooltip-arrow {
+
+    border-width: 8px 8px 0;
+    border-top-color: #000;
+    top: auto !important;
+    bottom: 2px;
+}
+
+#custom-data-panel .modal-footer {
+    display: none;
+    padding: 0;
+    border-top: 1px solid #d9d9d9;
+}
+
+#custom-data-panel .modal-footer button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background: #d9d9d9;
+    color: #fff;
+}
+
+#custom-data-panel .modal-footer button.active {
+    background: #6600cc;
+}
+
+#custom-data-panel .modal-footer button.active:hover {
+    background: #006876;
+}
+
+#custom-data-panel .bid-action-section .custom-data-section-body {
+    height: 165px;
+}
+
+.automation-filters-panel .custom-data-days-per-week-box-select .te-box-select-btn {
+    padding: 4px 5px 4px 17px !important;
+}
+
+#custom-data-panel .custom-data-filter .custom-data-filter-name-select3-wrapper li[data-id=orders] > ul {
+    width: 160px !important;
+}
+
+#custom-data-panel .custom-data-filter .custom-data-filter-name-select3-wrapper li[data-id=campaign] > ul {
+    width: 175px !important;
+}
+
+#custom-data-panel .export_type-settings {
+
+}
+
+#custom-data-panel .export_type-settings .export-type-setting-entry {
+    padding: 5px;
+}
+
+#custom-data-panel .export_type-settings .export-type-setting-entry > label {
+    font-size: 13px;
+    line-height: 17px;
+    margin-right: 5px;
+}
+
+#custom-data-panel .export_type-settings .export-type-setting-entry > input.br-input {
+    width: calc(100% - 100px);
+}
+
+body.account-settings-page .filters-menu-block,
+body.custom-data-page .filters-menu-block {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    #custom-data-panel .modal-dialog {
+        max-width: 600px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .custom-data-column {
+        border-left: 1px solid #d9d9d9;
+        width: 100%;
+        float: left;
+        padding-right: 20px;
+    }
+
+    #custom-data-panel .modal-header #save-custom-data-name {
+        max-width: calc(100% - 240px);
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #custom-data-panel.modal {
+        /*border: none;*/
+        /*border-radius: 0;*/
+    }
+
+    #custom-data-panel .modal-dialog {
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        position: fixed;
+    }
+
+    #custom-data-panel .modal-content {
+        height: 100%;
+    }
+
+    #custom-data-panel #custom-data-modal-content {
+        border: none;
+        border-radius: 0;
+    }
+
+    #custom-data-panel .modal-body {
+        overflow: auto;
+        max-height: calc(100% - 125px);
+    }
+
+    #custom-data-panel #custom_data_form {
+        max-height: 100%;
+        height: 100%;
+    }
+
+    #custom-data-panel .modal-header #save-custom-data-name {
+        width: calc(100% - 175px);
+        max-width: inherit;
+    }
+
+    #custom-data-panel #save-custom-data-btn {
+        display: none;
+    }
+
+    #custom-data-panel .modal-footer {
+        display: block;
+    }
+
+}

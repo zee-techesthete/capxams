@@ -1,0 +1,160 @@
+.sticky-table, .sticky-table > table {
+    /*-webkit-transform-style: preserve-3d !important;;*/
+    /*-moz-transform-style: preserve-3d !important;;*/
+    /*transform-style: preserve-3d !important;;*/
+    /*-webkit-backface-visibility: hidden !important;;*/
+    /*-moz-backface-visibility: hidden !important;;*/
+    /*backface-visibility: hidden !important;;*/
+    /*-webkit-perspective: 1000 !important;*/
+
+}
+
+.sticky-table {
+    max-width: 100%;
+    max-height: 80vh;
+    overflow: auto;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 0 !important;
+}
+
+.sticky-table table {
+    margin-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+}
+
+.sticky-table table tr.sticky-row th, .sticky-table table tr.sticky-row td {
+    background-color: #fff;
+    border-top: 0;
+    position: relative;
+    /*outline: 1px solid #ddd;*/
+    z-index: 5;
+}
+
+.sticky-table table td.sticky-cell, .sticky-table table th.sticky-cell {
+    background-color: #fff;
+    /*outline: 1px solid #ddd;*/
+    position: relative;
+    z-index: 10;
+}
+
+.sticky-table table th.first_col_fixed, .sticky-table table td.first_col_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 0;
+    background-color: white;
+}
+
+.sticky-table table th.sec_col_fixed, .sticky-table table td.sec_col_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 25px;
+    background-color: white;
+}
+
+.sticky-table table th.third_col_fixed, .sticky-table table td.third_col_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 261px;
+    background-color: white;
+}
+
+.sticky-table table th.fourth_col_fixed, .sticky-table table td.fourth_col_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 369px;
+    background-color: white;
+}
+
+.sticky-table table th.campaign_keyword_fixed, .sticky-table table td.campaign_keyword_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 402px;
+    background-color: white;
+}
+
+.sticky-table table th.adgroup_keyword_fixed, .sticky-table table td.adgroup_keyword_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 637px;
+    background-color: white;
+}
+
+.sticky-table table th.adgroup_auto_fixed, .sticky-table table td.adgroup_auto_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 327px;
+    background-color: white;
+}
+
+.sticky-table table th.cpcbid_fixed, .sticky-table table td.cpcbid_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 328px;
+    background-color: white;
+}
+
+.sticky-table table th.matchtype_fixed, .sticky-table table td.matchtype_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 261px;
+    background-color: white;
+}
+
+.sticky-table table th.cpcbid_auto_fixed, .sticky-table table td.cpcbid_auto_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 261px;
+    background-color: white;
+}
+.sticky-table table th.defaultbid_fixed, .sticky-table table td.defaultbid_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 226px;
+    background-color: white;
+}
+.sticky-table table th.adgroup_campaign_fixed, .sticky-table table td.adgroup_campaign_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    left: 306px;
+    background-color: white;
+}
+.sticky-table table td.translate-cols, .sticky-table table th.translate-cols {
+    background-color: #fff;
+    /*outline: 1px solid #ddd;*/
+    position: relative;
+    z-index: 114;
+    padding-right: 26px;
+}
+
+.sticky-table table tr.sticky-row td.translate-cols, .sticky-table table tr.sticky-row th.translate-cols {
+    z-index: 15;
+}
+
+.sticky-table table tr.sticky-row td.sticky-cell, .sticky-table table tr.sticky-row th.sticky-cell {
+    z-index: 15;
+}
+
+.sticky-table table th.header_row_fixed {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 0 !important;
+    background: white !important;
+}
+
+.sticky-table table th.header_row_not_fixed {
+    position: static;
+    background: white !important;
+}
+
+.sticky-table table th.sec_header_row_fixed {
+    position: sticky !important;
+    position: -webkit-sticky !important;
+    background: rgb(245, 245, 245) !important;
+}
+
+.sticky-table table th.date_range {
+    min-width: 87px;
+}
